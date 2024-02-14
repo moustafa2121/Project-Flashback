@@ -16,7 +16,9 @@ Afterwards, Dall-E will be promoted for 5 images regarding each different storie
 
 Furthermore, the user can scroll down to view other stories (including those of other users).
 
-User is limited to 3 queries and 10 queries for all users (combined), per day.
+User is limited to 3 queries and 10 queries for all users (combined), per day.\
+
+🚩Try avoiding controversial subjects as that will be blocked by OpenAI’s policy of the whatever. Anything that may involve gory scenarios or sensitive subjects will be rejected by ChatGPT or Dall-E’s API (in which the latter seems to be more strict). 🚩
 
 ## Built with 🔧
 - Django REST Framework
@@ -57,4 +59,6 @@ Note that even though phase2 will retrieve the previous stories, it will fail in
 
 
 ## Demo ⏵
+🚩Note that some frames were trimmed from the demo gif to shorten the phase2 prompting because it takes a while. Takes around 30 seconds for ChatGPT to return a query, and maybe 10-15 seconds for the each image (they are queried concurrently though). 🚩
+
 ![demo](https://github.com/moustafa2121/MarketScanner/blob/master/demo.gif)
