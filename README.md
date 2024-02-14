@@ -55,10 +55,9 @@ sudo docker-compose up --build
 Note that even though phase2 will retrieve the previous stories, it will fail in making queries. This is because you need your own OpenAI API key (the one for live demo is hidden, obviously). You can add your own in the Docker file of the backend2 repo.
 
 ## Architecture
-
-
+![architecture](https://github.com/moustafa2121/flashback-docker/blob/main/Architecture.jpg)
 
 ## Demo ⏵
 🚩Note that some frames were trimmed from the demo gif to shorten the phase2 prompting because it takes a while. Takes around 30 seconds for ChatGPT to return a query, and maybe 10-15 seconds for the each image (they are queried concurrently though). 🚩
 
-![demo](https://github.com/moustafa2121/MarketScanner/blob/master/demo.gif)
+![demo](https://github.com/moustafa2121/flashback-docker/blob/main/demo.gif)
