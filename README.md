@@ -2,12 +2,13 @@
 [Live app](http://35.222.8.176/)
 
 ## About 🛈
-Project FlashBack “simulates” a period of time. It is made of several phases, currently Phase1 and Phase2 are live.\
+Project FlashBack “simulates” a period of time. It is made of several phases, currently Phase1 and Phase2 are live.
 
 Live Demo is deployed on Ubuntu VM on Google Cloud
 
 ### Phase1
-[Throwback](https://github.com/moustafa2121/ProjectFlashback_b): Inspired by the question of “what the internet was like back then?”. It fetches data from several sources, trying to give a feel what was it like browsing the internet in a given year. Data scraped from several sources, providing posts from Reddit, Twitter, Spotify, IMDB, Wikipedia, KnowYourMeme.\
+[Throwback](https://github.com/moustafa2121/ProjectFlashback_b): Inspired by the question of “what the internet was like back then?”. It fetches data from several sources, trying to give a feel what was it like browsing the internet in a given year. Data scraped from several sources, providing posts from Reddit, Twitter, Spotify, IMDB, Wikipedia, KnowYourMeme.
+
 User can input the year, posts are fetched as the user scrolls (infinite scroll).
 
 ### Phase2
@@ -16,7 +17,7 @@ Afterwards, Dall-E will be promoted for 5 images regarding each different storie
 
 Furthermore, the user can scroll down to view other stories (including those of other users).
 
-User is limited to 3 queries and 10 queries for all users (combined), per day.\
+User is limited to 3 queries per day. All users have a combined limit of 10 queries per day.
 
 🚩Try avoiding controversial subjects as that will be blocked by OpenAI’s policy of the whatever. Anything that may involve gory scenarios or sensitive subjects will be rejected by ChatGPT or Dall-E’s API (in which the latter seems to be more strict). 🚩
 
@@ -38,7 +39,7 @@ User is limited to 3 queries and 10 queries for all users (combined), per day.\
 
 
 ## Usage 🧮
-There are 4 repositories that make up the entire project. Nginx, backend1, and backend2 each run on a Docker container. To deploy, do the following:\
+There are 4 repositories that make up the entire project. Nginx, backend1, backend2 (each run on a Docker container), and React's frontend. To run, do the following:\
 1- Clone them and place them in the following structure:\
 ├── [main repo container docker-compose](https://github.com/moustafa2121/flashback-docker/tree/main)\
 │   ├── [Phase1 backend](https://github.com/moustafa2121/ProjectFlashback_b)\
